@@ -1,0 +1,46 @@
+$primaryColorOne: rgb(34, 181, 115);
+$primaryColorTwo: rgb(252, 184, 76);
+body {
+    background-color: $primaryColorOne;
+}
+
+@media(min-width:768px) {
+    .cards {
+        display: flex;
+    }
+}
+
+.container {
+    flex: 1;
+    margin: 15px;
+}
+
+.container.one {
+    h3 {
+        color: $primaryColorTwo;
+    }
+}
+
+.container.two {
+    h3 {
+        color: $primaryColorTwo;
+    }
+}
+
+.container.three {
+    h3 {
+        color: $primaryColorTwo;
+    }
+}
+
+.btn {
+    color: $primaryColorTwo
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px white solid;
+}
