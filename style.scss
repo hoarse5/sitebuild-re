@@ -5,14 +5,22 @@ body {
 }
 
 @media(min-width:768px) {
+    .cards-main {
+        min-width: 100vw;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .cards {
         display: flex;
+        justify-content: space-between;
+        width: 1300px;
+        height: 100vh;
     }
-}
-
-.container {
-    flex: 1;
-    margin: 15px;
+    .container {
+        flex: 1;
+    }
 }
 
 .container.one {
@@ -42,5 +50,4 @@ body {
     height: 100px;
     margin-left: auto;
     margin-right: auto;
-    border: 1px white solid;
 }
